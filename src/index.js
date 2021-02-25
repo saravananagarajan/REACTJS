@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+
+const inner = [
+  React.createElement("h1", {}, "My First React Code"),
+  React.createElement("h1", {}, "My Second React Code")
+];
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  // React.createElement("div", null, inner),
   document.getElementById('root')
 );
 
